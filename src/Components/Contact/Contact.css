@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 170px;
+    margin: 80px 80px;
 }
 .contact-tittle{
     position: relative;
@@ -23,7 +23,7 @@
 }
 .contact-section{
     display: flex;
-    gap: 150px;
+    gap: 100px;
 }
 .contact-left{
     display: flex;
@@ -69,8 +69,8 @@
 }
 .contact-right input{
     border: none;
-    width: 600px;
-    height: 72px;
+    width: 500px;
+    height: 60px;
     padding-left: 20px;
     border-radius: 4px;
     background: #32323c;
@@ -79,7 +79,7 @@
     font-size: 18px;
 }
 .contact-right textarea{
-    width: 550px;
+    width: 450px;
     border: none;
     padding: 25px;
     border-radius: 4px;
