@@ -103,6 +103,7 @@ a:visited {
     .hero p {
         font-size: 16px;
         line-height: 20px;
+        width: 320px;
     }
     .hero-connect {
         padding: 7px 12px;
