@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 80px;
-    margin: 80px 0px;
+    margin: 80px 120px;
 }
 .about-tittle{
     position: relative;
@@ -26,8 +26,8 @@
     gap: 80px;
 }
 .about-left img{
-    width: 380px;
-    height: 450px;
+    width: 350px;
+    height: 400px;
     border-radius: 10px;
 }
 .about-right{
@@ -40,7 +40,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
     width: 550px;
 }
@@ -57,7 +57,7 @@
 }
 .about-skill p{
     min-width: 150px;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
 }
 .about-skills hr{
@@ -95,13 +95,13 @@
     .about-para{
         font-size: 16px;
         line-height: 32px;
-        margin: -100px 80px;
+        margin: -100px 0px;
         width: 340px;
         text-align: center;
     }
     .about-skills{
         width: 340px;
-        margin: 50px 80px;
+        margin: 50px 0px;
         margin-bottom: -30px;
     }
     .about-skill{
