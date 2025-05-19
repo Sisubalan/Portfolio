@@ -1,0 +1,124 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.projects-tittle{
+    position: relative;
+}
+.projects-tittle h1{
+    padding: 0px 30px;
+    font-size: 50px;
+    font-weight: 600;
+}
+.projects-tittle img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    width: 160px;
+}
+.project_desc{
+    font-size: 24px;
+    width: 700px;
+    text-align: center;
+    margin-top: -50px;
+}
+.projects-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr ;
+    text-align: center;
+}
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+.project-data{
+    width: 380px;
+    margin: 20px 20px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+}
+.project-data:hover{
+    border-color: #C4429F;
+    scale: 1.01;
+}
+.project-data img{
+    width: 370px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    filter: blur(1px);
+    border-radius: 15px;
+}
+.project-data h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 12px 0;
+    color: #C4429F;
+}
+.project-data p{
+    font-size: 16px;
+    font-weight: 100;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.project-data button{
+    border: none;
+    outline: none;
+    background: none;
+    background: rgb(76, 85, 94);
+    color: black;
+    border-radius: 30px;
+    padding: 3px 5px;
+    margin: 0px 3px;
+    font-weight: 600;
+    font-size: 12px;
+    border: 1px solid black;
+}
+.projects-container button:hover{
+    background: rgb(123, 129, 134);
+}
+
+/* media quary */
+@media(max-width:768px){
+    .projects{
+        gap: 50px;
+        margin: 50px 70px;
+    }
+    .projects-tittle h1{
+        padding: 0;
+        font-size: 40px;
+    }
+    .projects-tittle img{
+        width: 130px;
+        margin-right: -20px;
+    }
+    .project_desc{
+        font-size: 16px;
+        width: 350px;
+        margin-top: -30px;
+    }
+    .project-data{
+        width: 170px;
+        margin: 10px 10px;
+        height: 300px;
+    }
+    .project-data img{
+        width: 160px;
+    }
+    .project-data h3{
+        font-size: 18px;
+        margin: 10px 5px;
+    }
+    .project-data p{
+        font-size: 13px;
+    }
+    .project-data button{
+        font-size: 10px;
+    }
+}
